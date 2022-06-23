@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:design="clr-namespace:HPlusSports.Design;assembly:HPlusSports"
+             BindingContext="{x:Static design:ProductModel.Product}"
+             x:Class="HPlusSports.ProductDetail">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="10,20">
+            <StackLayout Orientation="Horizontal">
+            <Label Text="Name:" />
+            <Label Text="{Binding Path=Name}" />
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical">
+                <Label Text="Description:" />
+                <Label Text="{Binding Path=Description}"></Label>
+            </StackLayout>
+
+            <Image Source="{Binding Path=ImageUri}" Aspect="AspectFit" HorizontalOptions="FillAndExpand" 
+                   VerticalOptions="Start"></Image>
+            <RelativeLayout HorizontalOptions="FillAndExpand">
+                <Button Text="Order" x:Name="orderBtn"
+                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=.25}"></Button>
+                <Button Text="Favorite"
+                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,ElementName=orderBtn,Property=X, Constant=100}"
+                        ></Button>
+            </RelativeLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
+<!--https://hplussport.com/wp-content/uploads/2016/12/v-neck-T-shirt-for-women_LYNDA_29948.jpg-->

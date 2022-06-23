@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HPlusSports.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Lets' get started" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Hi there get access to our products, click on the products button below to see a listing of all our products. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
+
+        <Image Source="hplogo.png"  Aspect="AspectFit" HorizontalOptions="FillAndExpand" 
+                   VerticalOptions="Start"/>
+
+        <Button Text="Products" Clicked="Handle_Clicked" />
+        <Button Text="About" Clicked="About_Clicked" />
+        <Button Text="Contact" Clicked="Contact_Clicked" />
+    </StackLayout>
+
+</ContentPage>
