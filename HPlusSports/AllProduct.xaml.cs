@@ -18,13 +18,13 @@ namespace HPlusSports
             InitializeComponent();
         }
 
-        public void Item_Selected(object sender, SelectionChangedEventArgs e)
+        public void Item_Selected(object sender, SelectionChangedEventArgs e) // Added Code
         {
             Services.Product product = e.CurrentSelection.First() as Services.Product;
             Navigation.PushAsync(new ProductDetail(product));
         }
 
-        protected override async void OnAppearing()
+        protected override async void OnAppearing() // Added Code
         {
             base.OnAppearing();
             var products = await ProductService.GetProductsAsync();

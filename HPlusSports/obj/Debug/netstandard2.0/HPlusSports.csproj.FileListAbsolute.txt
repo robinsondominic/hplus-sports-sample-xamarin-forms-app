@@ -16,3 +16,4 @@ C:\Users\drobinson\source\repos\HPlusSports\HPlusSports\obj\Debug\netstandard2.0
 C:\Users\drobinson\source\repos\HPlusSports\HPlusSports\obj\Debug\netstandard2.0\ref\HPlusSports.dll
 C:\Users\drobinson\source\repos\HPlusSports\HPlusSports\obj\Debug\netstandard2.0\HPlusSports.pdb
 C:\Users\drobinson\source\repos\HPlusSports\HPlusSports\obj\Debug\netstandard2.0\HPlusSports.csprojAssemblyReference.cache
+C:\Users\drobinson\source\repos\HPlusSports\HPlusSports\obj\Debug\netstandard2.0\PrdListing.xaml.g.cs

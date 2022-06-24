@@ -20,6 +20,10 @@ namespace HPlusSports
             Navigation.PushAsync(new AllProduct());
         }
 
+        private void Listing_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new PrdListing());
+        }
         private void About_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new About());
@@ -29,5 +33,6 @@ namespace HPlusSports
         {
             Navigation.PushAsync(new ContactUs());
         }
+
     }
 }
