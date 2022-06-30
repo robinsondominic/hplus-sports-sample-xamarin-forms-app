@@ -1,5 +1,7 @@
 # hplus-sports-sample-xamarin-forms-app
-Sample Mobile application built using Xamarin.Forms in C# and XAML, developed with re-use code from LinkedIn Learning, Xamarin Forms Essential Training 
+Sample Mobile application built using Xamarin.Forms in C# and XAML, developed with re-use code from LinkedIn Learning, Xamarin Forms Essential Training.
+- Xamarin.Forms 5.0.0.2012
+- Visual Studio 2019
 
 ![image](https://user-images.githubusercontent.com/98348781/175572345-05c2775d-c6b7-4ead-a54f-34690fe120b6.png)
 ![image](https://user-images.githubusercontent.com/98348781/175572568-14cdd49e-1732-47cc-a206-42a512042459.png)
